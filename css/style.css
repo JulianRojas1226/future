@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+:root{
+    --prymari-color:#f7515C;
+    --secundary-color:#282A30
+}
+/*estilos home*/
+header.header-home{
+width: 100%;
+position: relative;
+margin-bottom: 40px;
+}
+.logo{
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--secundary-color);
+    color: var(--secundary-color);
+
+}
+header nav li.nav-item{
+    margin:0 20PX;
+}
+
+header nav li.nav-item:last-child{
+    margin-left: 200px;
+}
+header.header-home::before{
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 100vh;
+    background: #5e5d5dd3;
+    left: 15%;
+    top: 0;
+
+}
+.btn-future{
+background: var(--prymari-color);
+color: white;
+padding: 12px 30px !important;
+border-radius: 20px;
+border: 1px solid transparent;
+}
+.btn-future:hover{
+    background: transparent;
+    color: var(--prymari-color);
+    border: 2px solid var(--prymari-color);
+    padding: 12px 30px !important;
+    border-radius: 20px;
+}
+#hero {
+    padding-top: 40PX;
+    position: relative;
+    margin-bottom: 70PX;
+}
+#carouselheroAutoplaying img{
+    border-radius: 38px;
+}
+#hero .info_hero{
+    padding: 50px 40px;
+}
+#hero .info_hero span{
+    background:#ffdee0;
+    color: var(--prymari-color);
+    padding: 16px 40px;
+    border-radius: 30px;
+}
+#hero h1{
+    margin-top: 50px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 100px;
+}
+#hero h1 b{
+    color: var(--prymari-color);
+    font-weight: 700 ;
+}
+#hero .botones{
+    margin-top: 50px;
+}
+#hero .botones a{
+    text-decoration: none;
+    color: var(--prymari-color);
+    font-size: 24px;
+    font-weight: 600;
+    border: 1px solid #f7515C;
+    padding: 18px 60px;
+    border-radius: 90px;
+    transition: 0.5s;
+}
+#hero .botones a:hover{
+    background: var(--prymari-color);
+    color: #fff;
+}
+#hero .botones button{
+    background: transparent;
+    border-color: transparent;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 24px;
+}
+#hero  button i{
+padding: 20px 23px;
+background: #fff;
+border-radius: 50%;
+box-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.15) ;
+margin-right: 24px;
+}
+.user-visit{
+    width: 100%;
+    background: var(--prymari-color);
+    padding: 40px  30px 20px;
+    position: absolute;
+    bottom: 5%;
+    z-index: -1;
+}
+.user-visit ul{
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+}
+.user-visit ul li{
+    list-style: none;
+    color: #fff;
+}
+.user-visit ul li b{
+
+    margin-left: 30px;
+    
+
+}
+.user-visit ul img{
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: -30px;
+}
+/*main*/
+main{
+    width: 100%;
+    position: relative;
+}
+#benefits{
+    width: 100%;
+    position: relative;
+    padding: 20px 0 120px;
+    text-align: center;
+}
+#benefits article{
+    padding: 20px 60px;
+}
+#benefits h2{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+#benefits .iconos-benefit{
+    width: 80px;
+    height: 80px;
+    background: url(../img/Benefits.png);
+    background-size: cover;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#benefits .iconos-benefit{
+    color: var(--prymari-color);
+font-size: 34px;
+}
+#benefits h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#benefits p{
+    font-size: 18px;
+    color: #999;
+}
